@@ -84,6 +84,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_acl-mode"></a> [acl-mode](#input\_acl-mode) | S3 bucket ACL | `string` | `"private"` | no |
 | <a name="input_env"></a> [env](#input\_env) | Environment name | `string` | `"dev"` | no |
 | <a name="input_project"></a> [project](#input\_project) | Project name | `string` | `"cloudtipss"` | no |
 
@@ -93,3 +94,5 @@ No modules.
 |------|-------------|
 | <a name="output_s3_bucket_name"></a> [s3\_bucket\_name](#output\_s3\_bucket\_name) | n/a |
 <!-- END_TF_DOCS -->
+
+# Test Terraform Docs PR
