@@ -84,6 +84,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_acl-mode"></a> [acl-mode](#input\_acl-mode) | S3 bucket ACL | `string` | `"private"` | no |
 | <a name="input_env"></a> [env](#input\_env) | Environment name | `string` | `"dev"` | no |
 | <a name="input_project"></a> [project](#input\_project) | Project name | `string` | `"cloudtipss"` | no |
 
