@@ -25,6 +25,6 @@ resource "aws_s3_bucket_public_access_block" "example_block" {
 resource "aws_s3_bucket_acl" "example_acl" {
   bucket = aws_s3_bucket.example.bucket
 
-  acl = var.acl-mode
-  depends_on = [ aws_s3_bucket.example,aws_s3_bucket_ownership_controls.example ,aws_s3_bucket_public_access_block.example_block ]
+  acl        = var.acl-mode
+  depends_on = [aws_s3_bucket.example, aws_s3_bucket_ownership_controls.example, aws_s3_bucket_public_access_block.example_block]
 }
